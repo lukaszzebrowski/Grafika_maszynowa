@@ -5,7 +5,7 @@ from PIL import ImageStat as stat
 import matplotlib.pyplot as plt
 from random import randint
 from time import time
-plt.switch_backend('TkAgg')
+# plt.switch_backend('TkAgg')
 
 def pozyskaj_r(image):
     r = image[:, :, 0]
