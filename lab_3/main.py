@@ -3,7 +3,7 @@ import numpy as np
 from itertools import permutations
 from PIL import ImageChops
 import matplotlib.pyplot as plt
-plt.switch_backend('TkAgg')
+# plt.switch_backend('TkAgg')
 
 def pozyskaj_r(image):
     r = image[:, :, 0]
